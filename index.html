@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <a>CatchUp</a>
+        </nav>
+        
+        <div id="welcome">
+            <h1>CatchUp</h1>
+            <p>Catch Up Before the Exam</p>
+            <p>Don't Let the Exam Catch You!</p>
+            <button id="startBtn">Let's Start! →</button>
+        </div>
+        <div id="planner">    
+            <p>Got an exam coming up? 📚 CatchUp tells you how much you need to study each day to make it on time!</p>
+            <div>
+                <label>When's your exam?</label>
+                <input id="examDate" type="datetime-local">
+            </div>
+
+            <div>
+                <label>How many pages?</label>
+                <input id="totalPages" type="number">
+            </div>
+
+            <div>
+                <label>How many pages can you study per hour?</label>
+                <input id="pagesPerHour" type="number">
+            </div>
+
+            <button id="btn">Can I Make It? 👀</button>
+            <div id="result"></div>
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>
