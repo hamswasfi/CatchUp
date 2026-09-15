@@ -41,7 +41,7 @@ btn.addEventListener("click",function(){
             "<p>📝 You'll have <strong>" + reviewDays + " days left for review!</strong></p>" +
             "<p>📖 Try to finish around <strong>" + Math.ceil(pagesPerDay) + " pages a day</strong>.</p>";
         }
-});
+}); 
 
 
 
